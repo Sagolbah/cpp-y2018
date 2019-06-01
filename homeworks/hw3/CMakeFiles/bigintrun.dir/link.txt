@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -std=c++17 -pedantic  -rdynamic CMakeFiles/bigintrun.dir/bigintrun.cpp.o CMakeFiles/bigintrun.dir/uintvector.cpp.o CMakeFiles/bigintrun.dir/big_integer.cpp.o  -o bigintrun 
