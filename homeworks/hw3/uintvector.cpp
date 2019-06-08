@@ -39,6 +39,7 @@ uintvector::uintvector(uintvector const &other) {
     if (other.is_big) {
         bigvect.copy(other.bigvect);
         vec_data = bigvect.data.get();
+        is_big = true;
     } else {
         vec_data = smallvect;
         memcpy(vec_data, other.smallvect, SMALL_SIZE * sizeof(uint32_t));
