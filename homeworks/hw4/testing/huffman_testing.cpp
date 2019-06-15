@@ -71,6 +71,7 @@ void encode(std::string const &file_in, std::string const &file_out) {
                        (bits.size() / (sizeof(uint64_t) * 8) + 1) * sizeof(uint64_t));
         }
     }
+    free(block);
 }
 
 void decode(std::string const &file_in, std::string const &file_out) {
