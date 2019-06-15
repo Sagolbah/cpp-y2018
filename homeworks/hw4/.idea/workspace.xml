@@ -38,10 +38,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cc" value="14" />
-          <entry key="cpp" value="7845" />
+          <entry key="cpp" value="7947" />
           <entry key="damaged_structure" value="87" />
           <entry key="enc" value="1" />
-          <entry key="h" value="3444" />
+          <entry key="h" value="3464" />
           <entry key="in" value="159" />
           <entry key="mm" value="50" />
           <entry key="txt" value="606" />
@@ -50,16 +50,17 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="590" />
-          <entry key="ObjectiveC" value="11353" />
+          <entry key="ObjectiveC" value="11475" />
           <entry key="PLAIN_TEXT" value="263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Makefile" value="2" />
           <entry key="cc" value="2" />
           <entry key="cpp" value="13" />
           <entry key="damaged_structure" value="1" />
-          <entry key="enc" value="3" />
+          <entry key="enc" value="4" />
           <entry key="h" value="25" />
           <entry key="in" value="14" />
           <entry key="out" value="15" />
@@ -73,7 +74,7 @@
           <entry key="CMakeLists.txt" value="6" />
           <entry key="Image" value="5" />
           <entry key="ObjectiveC" value="40" />
-          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="PLAIN_TEXT" value="57" />
         </counts>
       </usages-collector>
     </session>
@@ -83,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="12">
+              <caret line="61" column="74" lean-forward="true" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -92,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/huffman_tree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="417">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding>
                 <element signature="e#55#73#0" expanded="true" />
               </folding>
@@ -107,20 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/huffman_tree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2403">
+            <state relative-caret-position="-474">
               <caret line="89" selection-start-line="89" selection-end-line="89" />
-              <folding>
-                <element signature="e#42#60#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/huffman_testing.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7371">
-              <caret line="273" column="51" selection-start-line="273" selection-start-column="51" selection-end-line="273" selection-end-column="51" />
+            <state relative-caret-position="27">
+              <caret line="151" column="34" lean-forward="true" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -129,10 +127,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/tests/range.enc">
+          <provider selected="true" editor-type-id="LargeFileEditor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <caret line="1" column="29" selection-end-line="4" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -188,7 +191,6 @@
         <option value="$PROJECT_DIR$/jp_dec.out" />
         <option value="$PROJECT_DIR$/sample_text/one_letter.in" />
         <option value="$PROJECT_DIR$/sample_text/random_ascii.in" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/jp.in" />
         <option value="$PROJECT_DIR$/huffman_testing.cpp" />
         <option value="$PROJECT_DIR$/gtest/gtest-all.cc" />
@@ -199,8 +201,9 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/testing/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/lib/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/testing/huffman_testing.cpp" />
         <option value="$PROJECT_DIR$/lib/huffman_tree.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/testing/huffman_testing.cpp" />
       </list>
     </option>
   </component>
@@ -232,7 +235,13 @@
             <path>
               <item name="hw4" type="b2602c69:ProjectViewProjectNode" />
               <item name="hw4" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw4" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,12 +325,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560526830952</updated>
       <workItem from="1560526832319" duration="54570000" />
-      <workItem from="1560620971790" duration="86000" />
+      <workItem from="1560620971790" duration="4664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54656000" />
+    <option name="totallyTimeSpent" value="59234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,11 +345,11 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -348,7 +357,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32900432" />
@@ -369,7 +378,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>100</line>
+          <line>101</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -441,23 +450,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/huffman_dec.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding>
-            <element signature="e#53#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/huffman_dec.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screen_kappa.png" />
     <entry file="file://$PROJECT_DIR$/batya_dec.txt" />
     <entry file="file://$PROJECT_DIR$/batya_enc.out" />
@@ -625,9 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/tests/range.enc">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/tests/range.in">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="LargeFileEditor" />
@@ -639,51 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/huffman_tree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2403">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#42#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/huffman_testing.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7371">
-          <caret line="273" column="51" selection-start-line="273" selection-start-column="51" selection-end-line="273" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
@@ -700,12 +645,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/tests/range.enc">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/huffman_tree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="29" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/huffman_tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="417">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="e#55#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="61" column="74" lean-forward="true" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/huffman_testing.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="151" column="34" lean-forward="true" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

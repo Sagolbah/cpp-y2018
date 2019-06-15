@@ -198,12 +198,12 @@ TEST(correctness, double_compression_unicode) {
 
 TEST(correctness, decode_no_info) {
     std::string test_file = "tests/random_ascii";
-    EXPECT_ANY_THROW(decode(test_file + ".in", test_file + "res"));
+    EXPECT_ANY_THROW(decode(test_file + ".in", test_file + ".res"));
 }
 
 TEST(correctness, incorrect_alphabet) {
     std::string test_file = "tests/damaged_alphabet";
-    EXPECT_ANY_THROW(decode(test_file + ".in", test_file + "res"));
+    EXPECT_ANY_THROW(decode(test_file + ".in", test_file + ".res"));
 }
 
 TEST(correctness, whitespaces) {
@@ -231,6 +231,7 @@ TEST(correctness, range255) {
     for (uint8_t i = 0; i < 255; i++) {
         fout.write((char *) &i, sizeof(uint8_t));
     }
+    fout.close();
     encode(test_file + ".in", test_file + ".enc");
     decode(test_file + ".enc", test_file + ".res");
     std::ifstream first(test_file + ".in");
@@ -247,8 +248,9 @@ TEST(correctness, random_medium){
     const size_t blocks = 1 << 19;
     for (size_t i = 0; i < blocks; i++) {
         uint32_t nxt = rand();
-        fout.write((char *) &nxt, sizeof(size_t));
+        fout.write((char *) &nxt, sizeof(uint32_t));
     }
+    fout.close();
     encode(test_file + ".in", test_file + ".enc");
     decode(test_file + ".enc", test_file + ".res");
     std::ifstream first(test_file + ".in");
@@ -267,8 +269,9 @@ TEST(correctness, random_medium_double_encode){
     const size_t blocks = 1 << 19;
     for (size_t i = 0; i < blocks; i++) {
         uint32_t nxt = rand();
-        fout.write((char *) &nxt, sizeof(size_t));
+        fout.write((char *) &nxt, sizeof(uint32_t));
     }
+    fout.close();
     encode(test_file + ".in", test_file + ".enc");
     encode(test_file + ".enc", test_file + ".enc2");
     decode(test_file + ".enc2", test_file + ".enc");
@@ -283,13 +286,15 @@ TEST(correctness, random_medium_double_encode){
 
 
 TEST(correctness, random_large_256mb){
+    srand(time(NULL));
     std::string test_file = "tests/range";
     std::ofstream fout("tests/range.in", std::ios::out | std::ios::binary);
     const size_t blocks = 1 << 25;
     for (size_t i = 0; i < blocks; i++) {
         uint32_t nxt = rand();
-        fout.write((char *) &nxt, sizeof(size_t));
+        fout.write((char *) &nxt, sizeof(uint32_t));
     }
+    fout.close();
     encode(test_file + ".in", test_file + ".enc");
     decode(test_file + ".enc", test_file + ".res");
     std::ifstream first(test_file + ".in");

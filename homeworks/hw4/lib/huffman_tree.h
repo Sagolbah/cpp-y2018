@@ -27,8 +27,8 @@ struct huffman_tree {
         }
     };
 
-    node *root;
-    node *head;
+    node *root = nullptr;
+    node *head = nullptr;
 
     // Constructors
     huffman_tree(std::vector<uint64_t> const &freqs);
