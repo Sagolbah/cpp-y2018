@@ -70,6 +70,7 @@ int main(int argc, char *argv[]) {
                                (bits.size() / (sizeof(uint64_t) * 8) + 1) * sizeof(uint64_t));
                 }
             }
+            free(block);
         } else if (strcmp(argv[1], "-d") == 0) {
             uint16_t alph_size;
             uint32_t tree_size;
