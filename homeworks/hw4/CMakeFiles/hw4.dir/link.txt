@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/hw4.dir/main.cpp.o  -o hw4 -Wl,-rpath,/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib lib/libhuffman.so 

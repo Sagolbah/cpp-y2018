@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libhuffman.so -o libhuffman.so CMakeFiles/huffman.dir/huffman_enc.cpp.o CMakeFiles/huffman.dir/huffman_dec.cpp.o CMakeFiles/huffman.dir/huffman_tree.cpp.o CMakeFiles/huffman.dir/symbol_counter.cpp.o 

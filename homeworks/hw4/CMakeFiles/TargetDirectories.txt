@@ -1,0 +1,6 @@
+/home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeFiles/rebuild_cache.dir
+/home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeFiles/edit_cache.dir
+/home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeFiles/hw4.dir
+/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/CMakeFiles/rebuild_cache.dir
+/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/CMakeFiles/edit_cache.dir
+/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/CMakeFiles/huffman.dir

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="huffman"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/libhuffman.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 huffman"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman/fast">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/libhuffman.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 huffman/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/huffman_dec.cpp">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/huffman_dec.h">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/huffman_enc.cpp">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/huffman_enc.h">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/huffman_tree.cpp">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/huffman_tree.h">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/symbol_counter.cpp">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/symbol_counter.h">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
