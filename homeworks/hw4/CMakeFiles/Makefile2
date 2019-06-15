@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/sagolbah/SPbITMO/C++/homeworks/hw4
 CMakeFiles/hw4.dir/all: lib/CMakeFiles/huffman.dir/all
 	$(MAKE) -f CMakeFiles/hw4.dir/build.make CMakeFiles/hw4.dir/depend
 	$(MAKE) -f CMakeFiles/hw4.dir/build.make CMakeFiles/hw4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeFiles --progress-num=6,7 "Built target hw4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeFiles --progress-num=10,11 "Built target hw4"
 .PHONY : CMakeFiles/hw4.dir/all
 
 # Include target in all.
@@ -153,6 +153,61 @@ lib/CMakeFiles/huffman.dir/clean:
 
 # clean rule for target.
 clean: lib/CMakeFiles/huffman.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory testing
+
+# Convenience name for "all" pass in the directory.
+testing/all: testing/CMakeFiles/huffman_testing.dir/all
+
+.PHONY : testing/all
+
+# Convenience name for "clean" pass in the directory.
+testing/clean: testing/CMakeFiles/huffman_testing.dir/clean
+
+.PHONY : testing/clean
+
+# Convenience name for "preinstall" pass in the directory.
+testing/preinstall:
+
+.PHONY : testing/preinstall
+
+#=============================================================================
+# Target rules for target testing/CMakeFiles/huffman_testing.dir
+
+# All Build rule for target.
+testing/CMakeFiles/huffman_testing.dir/all: lib/CMakeFiles/huffman.dir/all
+	$(MAKE) -f testing/CMakeFiles/huffman_testing.dir/build.make testing/CMakeFiles/huffman_testing.dir/depend
+	$(MAKE) -f testing/CMakeFiles/huffman_testing.dir/build.make testing/CMakeFiles/huffman_testing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeFiles --progress-num=6,7,8,9 "Built target huffman_testing"
+.PHONY : testing/CMakeFiles/huffman_testing.dir/all
+
+# Include target in all.
+all: testing/CMakeFiles/huffman_testing.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+testing/CMakeFiles/huffman_testing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 testing/CMakeFiles/huffman_testing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeFiles 0
+.PHONY : testing/CMakeFiles/huffman_testing.dir/rule
+
+# Convenience name for target.
+huffman_testing: testing/CMakeFiles/huffman_testing.dir/rule
+
+.PHONY : huffman_testing
+
+# clean rule for target.
+testing/CMakeFiles/huffman_testing.dir/clean:
+	$(MAKE) -f testing/CMakeFiles/huffman_testing.dir/build.make testing/CMakeFiles/huffman_testing.dir/clean
+.PHONY : testing/CMakeFiles/huffman_testing.dir/clean
+
+# clean rule for target.
+clean: testing/CMakeFiles/huffman_testing.dir/clean
 
 .PHONY : clean
 

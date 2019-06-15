@@ -5,7 +5,7 @@
 		<Option title="huffman"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lib\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\testing\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib"/>
@@ -75,6 +75,9 @@
 		</Unit>
 		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testing\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

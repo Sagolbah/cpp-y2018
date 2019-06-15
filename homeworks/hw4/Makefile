@@ -136,6 +136,19 @@ huffman/fast:
 	$(MAKE) -f lib/CMakeFiles/huffman.dir/build.make lib/CMakeFiles/huffman.dir/build
 .PHONY : huffman/fast
 
+#=============================================================================
+# Target rules for targets named huffman_testing
+
+# Build rule for target.
+huffman_testing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 huffman_testing
+.PHONY : huffman_testing
+
+# fast build rule for target.
+huffman_testing/fast:
+	$(MAKE) -f testing/CMakeFiles/huffman_testing.dir/build.make testing/CMakeFiles/huffman_testing.dir/build
+.PHONY : huffman_testing/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -173,6 +186,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... hw4"
 	@echo "... huffman"
+	@echo "... huffman_testing"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

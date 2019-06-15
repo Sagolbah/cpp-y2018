@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.12)
+set(CMAKE_BUILD_TYPE Release)
+project(huffman_testing)
+add_executable(huffman_testing huffman_testing.cpp gtest/gtest-all.cc gtest/gtest_main.cc)
+target_link_libraries(huffman_testing huffman -lpthread)

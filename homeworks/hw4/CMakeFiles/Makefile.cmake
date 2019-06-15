@@ -29,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.12.2/CMakeSystem.cmake"
   "CMakeLists.txt"
   "lib/CMakeLists.txt"
+  "testing/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -41,10 +42,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "testing/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/hw4.dir/DependInfo.cmake"
   "lib/CMakeFiles/huffman.dir/DependInfo.cmake"
+  "testing/CMakeFiles/huffman_testing.dir/DependInfo.cmake"
   )

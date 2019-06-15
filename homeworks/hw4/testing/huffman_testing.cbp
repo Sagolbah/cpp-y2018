@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="huffman_testing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\testing\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman_testing">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/huffman_testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 huffman_testing"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman_testing/fast">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/huffman_testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 huffman_testing/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/gtest/gtest-all.cc">
+			<Option target="huffman_testing"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/gtest/gtest_main.cc">
+			<Option target="huffman_testing"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/huffman_testing.cpp">
+			<Option target="huffman_testing"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/hw4/testing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\testing\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
